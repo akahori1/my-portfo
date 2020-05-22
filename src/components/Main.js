@@ -33,10 +33,10 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            名前：赤堀将太郎
-            年齢：２９才
-            最終学歴：東京大学医学部卒業
-            職業：医師（精神科医）、フルスタックエンジニア
+            <li>名前：赤堀将太郎</li>
+            <li>年齢：２９才</li>
+            <li>最終学歴：東京大学医学部卒業</li>
+            <li>職業：医師（精神科医）、フルスタックエンジニア</li>
              <a href="#work">awesome work</a>.
           </p>
           <p>
@@ -71,13 +71,10 @@ class Main extends React.Component {
             また機械学習全般、kerasもしくはPyTorchを用いた深層学習のアルゴリズム作成も可能です。
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+          <a href="https://karadaclinic.co.jp/">クリニックのホームページ</a>
+          <a href="https://hairsalon-a-to.com/">サロンのホームページ</a>
+          <a href="https://master.d3kma7jfm5tbei.amplifyapp.com/">React.jsで制作したブログサイト</a>
+          <a href="https://github.com/akahori1/3DCNN">3DCNNの実装について</a>
           </p>
           {close}
         </article>
