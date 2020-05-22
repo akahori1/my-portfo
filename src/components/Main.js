@@ -37,20 +37,20 @@ class Main extends React.Component {
             <li>年齢：２９才</li>
             <li>最終学歴：東京大学医学部卒業</li>
             <li>職業：医師（精神科医）、フルスタックエンジニア</li>
-             <a href="#work">awesome work</a>.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            <li>できること１：React.js, node.js, express を使ったWebアプリケーション開発<br />
+            （ログイン処理、認証画面の実装も可能です）
+            </li>
+            <li>
+              できること２：PHPを使ったサイト開発（Wordpress）
+            </li>
+            <li>
+              できること３：pythonを用いた機械学習、深層学習アプリの開発<br />
+              SVM,PCA,アンサンブルなど一般的な機械学習手法全般<br />
+              GAN、オートエンコーダーを用いた画像処理<br />
+              BERTを用いた文章処理（類似文章検索など）<br />
+            </li>
           </p>
           {close}
         </article>
@@ -67,14 +67,14 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-            可能なスキルは、フロントエンドならReact.js、PHPになります。
+            可能なスキルは、フロントエンドならReact.js、PHPになります。<br />
             また機械学習全般、kerasもしくはPyTorchを用いた深層学習のアルゴリズム作成も可能です。
           </p>
           <p>
-          <a href="https://karadaclinic.co.jp/">クリニックのホームページ</a>
-          <a href="https://hairsalon-a-to.com/">サロンのホームページ</a>
-          <a href="https://master.d3kma7jfm5tbei.amplifyapp.com/">React.jsで制作したブログサイト</a>
-          <a href="https://github.com/akahori1/3DCNN">3DCNNの実装について</a>
+          <a href="https://karadaclinic.co.jp/">クリニックのホームページ</a><br />
+          <a href="https://hairsalon-a-to.com/">サロンのホームページ</a><br />
+          <a href="https://master.d3kma7jfm5tbei.amplifyapp.com/">React.jsで制作したブログサイト</a><br />
+          <a href="https://github.com/akahori1/3DCNN">3DCNNの実装について</a><br />
           </p>
           {close}
         </article>
@@ -86,18 +86,12 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">その他</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            精神科医としてうつ病、パニック障害を治すことができますので、近しい方で悩まれている方のオンラインカウンセリングも受け付けております。
           </p>
           {close}
         </article>
